@@ -43,6 +43,7 @@ class PendaftaranOsisResource extends JsonResource
             'siswa' => $siswaData,
             'pilihan_bidang' => $this->pilihan_bidang,
             'motivasi' => $this->motivasi,
+            
         ];
     }
 }
